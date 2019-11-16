@@ -1,0 +1,18 @@
+# i3
+
+Dependencies:
+* i3lock
+* xautolock
+* feh
+* blueman-applet
+* nm-applet
+* pnmixer
+
+Wallpaper use ~/.wallpaper.png
+Use $mod+l to unlock
+
+Install with:
+
+```
+ln -s ~/Projects/dotfiles/i3 ~/.config/i3/config
+```
