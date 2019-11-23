@@ -16,3 +16,14 @@ Install with:
 ```
 ln -s ~/Projects/dotfiles/i3 ~/.config/i3/config
 ```
+
+# Xprofile
+
+Dependencies:
+* xrandr
+
+Install with:
+
+```
+ln -s ~/Projects/dotfiles/xprofile ~/.xprofile
+```

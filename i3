@@ -149,7 +149,7 @@ bar {
         status_command i3status
 }
 
-bindsym $mod+l exec i3lock -c 000000 -i $wallpaper
+bindsym $mod+l exec i3lock -c 000000 -t -i $wallpaper
 bindsym $mod+p exec xfce4-screenshooter  
 bindsym $mod+b exec x-www-browser
 
@@ -157,4 +157,4 @@ exec --no-startup-id feh --bg-fill $wallpaper
 exec --no-startup-id blueman-applet
 exec --no-startup-id nm-applet
 exec --no-startup-id pnmixer
-exec --no-startup-id xautolock -time 5 -locker "i3lock -c 000000 -i $wallpaper"
+exec --no-startup-id xautolock -time 5 -locker "i3lock -c 000000 -t -i $wallpaper"
