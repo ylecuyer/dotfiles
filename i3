@@ -150,6 +150,8 @@ bar {
 }
 
 bindsym $mod+l exec i3lock -c 000000 -i $wallpaper
+bindsym $mod+p exec xfce4-screenshooter  
+bindsym $mod+b exec x-www-browser
 
 exec --no-startup-id feh --bg-fill $wallpaper
 exec --no-startup-id blueman-applet
