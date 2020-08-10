@@ -27,3 +27,8 @@ Install with:
 ```
 ln -s ~/Projects/dotfiles/xprofile ~/.xprofile
 ```
+
+# vim
+
+Dependencies:
+* https://github.com/Shougo/dein.vim in ~/.cache/dein
