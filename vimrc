@@ -32,7 +32,7 @@ set softtabstop=2
 " when indenting with '>', use 2 spaces width
 set shiftwidth=2
 
-let mapleader = "*"
+let mapleader = "ù"
 
 " Echoes the fully qualified key of the current line in a YAML locale file.
 " Credits to: airblade/vim-localorie
