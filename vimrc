@@ -13,7 +13,7 @@ if dein#load_state('~/.cache/dein')
   call dein#add('scrooloose/nerdcommenter')
   call dein#add('kien/ctrlp.vim')
   call dein#add('ntpeters/vim-better-whitespace')
-  call dein#add('bogado/file-line')
+  call dein#add('kopischke/vim-fetch')
   call dein#add('tpope/vim-fugitive')
   call dein#add('tpope/vim-surround')
 
